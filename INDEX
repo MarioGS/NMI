@@ -1,0 +1,57 @@
+NMBasicModel-class      Standard/"basic" NONMEM individual problem
+NMBasicModelNM7-class   Standard/"basic" NONMEM 7 individual problem
+NMProblem-class         Class "NMProblem"
+NMRun-class             NONMEM run container class
+NMSimDataGen-class      Class for holding simulation problems that
+                        don't fit models
+NMSimModel-class        Class "NMSimModel"
+NMSimModelNM7-class     Class "NMSimModelNM7"
+addDerivedCategorical   Add binned variable to NONMEM object
+addVarDescription       Adds a variable description
+addedData               Get added data
+applyDataSubset         Modify and apply data subsets
+defaultDataSubset       Configure the global data subset attached to
+                        NONMEM problems on loading
+getEstimateCov          Returns variance-covariance matrix, if
+                        available, from a NONMEM object
+getFileinfo             Various miscellaneous "getter"/extractor
+                        functions
+getIterations           Extract parameter estimate iteration
+                        information from a given NONMEM problem
+getMethodNames          Get method names
+getNmFileExtensions     Gets allowed NONMEM file extensions
+getNmPath               Gets a user defined path
+getObjective            Retrieve objective function value
+getOmegas               Retrieve OMEGA estimates, initial values of
+getProblem              Extract an individual NONMEM problem
+getSigmas               A generic function that extracts sigma
+                        estimates (and initial estimates and standard
+                        errors if specified) from a NONMEM object.
+getSimInfo              Get Simulation Information.
+getThetas               A generic function that extracts theta
+                        estimates (and initial estimates and standard
+                        errors if specified) from a NONMEM object.
+getVarDescription       Gets a variable description
+importNm                Import a NONMEM run
+importNm7Tables         Import new NONMEM 7 table files
+importNmInter           Import NONMEM "inter" file
+importNmMod             Parse a NONMEM control file
+importNmReport          Import the information in an output report file
+imposeCategoryFormat    Forces the data in a NONMEM object to conform
+                        to the variable formats specified in the
+                        metadata.
+logMessage              Logging utilities
+nmData                  Extract input and / or output data tables from
+                        a NONMEM object
+nmDatabyVarType         Get NONMEM data by variable type
+nmModel-class           Auxilliary class for representing control file
+                        statements
+nmRunReport-class       Auxilliary classes for representing report file
+                        statements
+readNmData              Read NONMEM dataset removing any "IGNORE" rows
+                        and dealing with (possibly repeated) headers...
+removeNmPath            Removes a user specified path
+runRNMImportTests       run package regression tests
+setNmFileExtensions     file allowed file extensions
+setNmPath               Stores a user specified path
+setVarDescription       Sets new variable characteristics

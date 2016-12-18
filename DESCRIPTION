@@ -1,0 +1,18 @@
+Package: RNMImport
+Type: Package
+Title: Tools for importing and manipulating NONMEM data.
+Version: 4.0-27
+Date: 2014-08-15
+Author: Mango Solutions <support@mango-solutions.com>
+Maintainer: Mango Solutions <support@mango-solutions.com>
+Suggests: RUnit (>= 0.4.22)
+Depends: R (>= 2.8.0), utils, stats, methods, tools
+Description: Imports NONMEM data, and provides utilities for manipulation reporting on it.
+License: Clear BSD + file LICENSE
+Packaged: 2014-08-19 08:15:08 UTC; rforge
+Repository: R-Forge
+Repository/R-Forge/Project: rnmimport
+Repository/R-Forge/Revision: 3
+Repository/R-Forge/DateTimeStamp: 2014-08-15 07:48:35
+Date/Publication: 2014-08-15 07:48:35
+Built: R 3.1.1; ; 2014-08-19 08:30:16 UTC; windows
